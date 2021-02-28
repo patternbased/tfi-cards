@@ -1,64 +1,19 @@
-.header {
-    width: 100%;
-    height: 40px;
-    background-color: black;
-}
+/* --jet: #161615;
+--davys-grey: #5f5f59;
+--bronze: #d58936;
+--brick-red: #c14953;
+--bone: #e5dcc5; */
 
-.wrapper {
-    width: 100%;
-    height: calc(100% - 120px);
-    background-color: brown;
-    padding: 40px 0;
-}
-
-.character {
-    width: 300px;
-    height: 400px;
-    margin: 0 auto;
-    background-color: cadetblue;
-    padding: 20px;
-    position: relative;
-
-}
-
-.charPic {
-    width: 250px;
-    height: 250px;
-    /* background: url("images/BetsyDevos.jpg") no-repeat; */
-    /* background-size: cover; */
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.charTxt {
-    width: 250px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 290px;
-
-}
-
-.charTxt h2 {
-    margin: 0;
-}
-
-.randomizer {
-    width: 300px;
-    height: 40px;
-    margin: 0 auto;
-    background-color: darkblue;
-}
-
-.randomFact {
-    width: 150px;
-    height: 30px;
-    position: absolute;
-    bottom: 20px;
-    margin: 0 auto;
-    background-color: rgb(0, 139, 23);
+@font-face {
+    font-family: 'OneDance-Bold';
+    src: url('fonts/OneDance-Bold.eot');
+    src: url('fonts/OneDance-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/OneDance-Bold.woff2') format('woff2'),
+        url('fonts/OneDance-Bold.woff') format('woff'),
+        url('fonts/OneDance-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 body, html {
@@ -67,3 +22,93 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
+body {
+    background: #161615;
+}
+
+.header {
+    width: calc(100% - 40px);
+    height: 20px;
+    background-color: #d58936;
+    box-shadow: 0 3px 1px #000 ;
+    font-family: 'OneDance-Bold';
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.wrapper {
+    width: 100%;
+    height: calc(100% - 120px);
+    background: url(images/bg-texture.png);
+    padding: 40px 0;
+}
+
+.character {
+    width: 300px;
+    min-height: 400px;
+    height: fit-content;
+    margin: 0 auto;
+    background-color: #5f5f59;
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 0 5px #000 ;
+}
+
+.charPic {
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    position: relative;
+}
+.charPic::after {
+    content: "";
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-image: url(images/frame-bad.svg);
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.charTxt {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    color: #161615;
+    text-align: center;
+}
+
+.charTxt h2 {
+    margin: 0;
+    font-family: 'OneDance-Bold';
+    font-size: 1.5em;
+}
+
+.charTxt p {
+    font-family: serif;
+    line-height: 1.2em;
+}
+
+.randomizer {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #c14953;
+    border-radius: 10px;
+}
+
+.randomFact {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #c14953;
+    border-radius: 10px;
+}
+
