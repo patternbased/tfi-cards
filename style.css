@@ -16,6 +16,18 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'UnitedStates';
+    src: url('fonts/UnitedStates.eot');
+    src: url('fonts/UnitedStates.eot?#iefix') format('embedded-opentype'),
+        url('fonts/UnitedStates.woff2') format('woff2'),
+        url('fonts/UnitedStates.woff') format('woff'),
+        url('fonts/UnitedStates.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body, html {
     width: 100%;
     height: 100%;
@@ -32,7 +44,8 @@ body {
     height: 20px;
     background-color: #d58936;
     box-shadow: 0 3px 1px #000 ;
-    font-family: 'OneDance-Bold';
+    font-family: 'UnitedStates';
+    line-height: 1.6em;
     display: flex;
     justify-content: center;
     padding: 10px 20px;
@@ -53,13 +66,14 @@ body {
     background-color: #5f5f59;
     border-radius: 4px;
     padding: 20px;
-    position: relative;
+    /* position: relative; */
     box-shadow: 0 0 5px #000 ;
 }
 
 .charPic {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
     border-radius: 4px;
     position: relative;
 }
@@ -68,9 +82,9 @@ body {
     width: 320px;
     height: 320px;
     position: absolute;
-    top: -10px;
-    left: -10px;
-    background-image: url(images/frame-bad.svg);
+    top: -20px;
+    left: -20px;
+    background-image: url(images/frame-bad2.svg);
     background-repeat: no-repeat;
     z-index: 100;
 }
@@ -78,15 +92,16 @@ body {
 .charTxt {
     width: 300px;
     height: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #161615;
     text-align: center;
+    z-index: 110;
 }
 
 .charTxt h2 {
     margin: 0;
-    font-family: 'OneDance-Bold';
-    font-size: 1.5em;
+    font-family: 'UnitedStates';
+    font-size: 2em;
 }
 
 .charTxt p {
