@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-    width: calc(100% - 40px);
+    width: calc(100vw - 40px);
     height: 20px;
     background-color: #d58936;
     box-shadow: 0 3px 1px #000 ;
@@ -49,6 +49,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px 20px;
+    z-index: 2000;
 }
 
 .wrapper {
@@ -59,28 +60,28 @@ body {
 }
 
 .character {
-    width: 300px;
+    width: 500px;
     min-height: 400px;
     height: fit-content;
     margin: 0 auto;
     background-color: #5f5f59;
-    border-radius: 4px;
+    border-radius: 14px;
     padding: 20px;
     /* position: relative; */
     box-shadow: 0 0 5px #000 ;
 }
 
 .charPic {
-    width: 280px;
-    height: 280px;
+    width: 480px;
+    height: 480px;
     margin: 10px;
     border-radius: 4px;
     position: relative;
 }
 .charPic::after {
     content: "";
-    width: 320px;
-    height: 320px;
+    width: 520px;
+    height: 520px;
     position: absolute;
     top: -20px;
     left: -20px;
@@ -90,9 +91,10 @@ body {
 }
 
 .charTxt {
-    width: 300px;
+    width: 500px;
     height: auto;
     margin-top: 40px;
+    margin-bottom: 10px;
     color: #161615;
     text-align: center;
     z-index: 110;
@@ -104,26 +106,154 @@ body {
     font-size: 2em;
 }
 
+.turdBubble {
+    position: fixed;
+    width: 160px;
+    min-height: 100px;
+    padding: 20px;
+    top: 50%;
+    transform: translate(50%,-50%);
+    right: calc(50% - 280px - 90px);
+    background: #686864;
+    z-index: -1;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+}
+.turdBubble img {
+    display: block;
+    width: 60px;
+    height: 50px;
+    /* background: url(images/factIcon.svg) no-repeat; */
+    margin: 0 auto;
+}
+/* .turdBubble ::after {
+    width: 190px;
+    height: 95px;
+    content: "";
+    background: url(images/bubble-arrow.svg) no-repeat;
+    position: absolute;
+    top: calc(50% + 47px);
+    transform: translateY(-50%);
+    left: -190px;
+} */
 .charTxt p {
+    display: block;
     font-family: serif;
     line-height: 1.2em;
+    margin-top: 50px;
 }
 
-.randomizer {
+.randomizer, .randomFact {
     width: 60px;
     height: 60px;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
     background-color: #c14953;
     border-radius: 10px;
 }
 
+.randomizer {
+    right: 20px;
+    bottom: 20px;
+}
+
 .randomFact {
+    right: 20px;
+    bottom: 100px;
+}
+
+/* .randomFact {
     width: 40px;
     height: 40px;
     margin: 0 auto;
     background-color: #c14953;
     border-radius: 10px;
+} */
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        padding: 20px 0;
+        height: calc(100% - 80px);
+    }
+    .character {
+        width: 300px;
+        min-height: 400px;
+    }
+    
+    .charPic {
+        width: 280px;
+        height: 280px;
+    }
+    .charPic::after {
+        width: 320px;
+        height: 320px;
+    }
+    
+    .charTxt {
+        width: 300px;
+        margin-bottom: 0;
+    }
+    .turdBubble {
+        position: static;
+        top: unset;
+        right: unset;
+        transform: unset;
+        background: none;
+        width: inherit;
+        min-height: unset;
+        padding: 0;
+    }
+    .randomizer, .randomFact {
+        width: 40px;
+        height: 40px;
+    }
+    .randomFact {
+    right: 80px;
+    bottom: 20px;
+    }
 }
 
+@media only screen and (max-width: 340px) {
+    .wrapper {
+        padding: 0;
+        height: calc(100% - 40px);
+    }
+
+    .character {
+        width: calc(100vw - 20px);
+        height: calc(100vh - 80px);
+        border-radius: 0;
+        padding: 20px 10px;
+        overflow-y: scroll;
+    }
+    
+    .charPic {
+        width: calc(100vw - 40px);
+        height: calc(100vw - 40px);
+    }
+    .charPic::after {
+        width: 100vw;
+        height: 100vw;
+    }
+    
+    .charTxt {
+        width: calc(100vw - 20px);
+        margin-bottom: 0;
+    }
+    #randomizers {
+        height: 40px;
+        width: 100vw;
+        background: #161615;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .randomizer, .randomFact {
+        right: unset;
+        bottom: unset;
+        position: static;
+        margin: 0 10px;
+    }
+
+}
