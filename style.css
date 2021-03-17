@@ -28,6 +28,44 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Green Fuz';
+    src: url('fonts/GreenFuz-Regular.eot');
+    src: url('fonts/GreenFuz-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GreenFuz-Regular.woff2') format('woff2'),
+        url('fonts/GreenFuz-Regular.woff') format('woff'),
+        url('fonts/GreenFuz-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '1 Punk';
+    src: url('fonts/1Punk.eot');
+    src: url('fonts/1Punk.eot?#iefix') format('embedded-opentype'),
+        url('fonts/1Punk.woff2') format('woff2'),
+        url('fonts/1Punk.woff') format('woff'),
+        url('fonts/1Punk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DEATH FONT';
+    src: url('fonts/DEATH-FONT-ver10.eot');
+    src: url('fonts/DEATH-FONT-ver10.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DEATH-FONT-ver10.woff2') format('woff2'),
+        url('fonts/DEATH-FONT-ver10.woff') format('woff'),
+        url('fonts/DEATH-FONT-ver10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 body, html {
     width: 100%;
     height: 100%;
@@ -42,7 +80,7 @@ body {
 .header {
     width: calc(100vw - 40px);
     height: 20px;
-    background-color: #d58936;
+    background-color: #c2c1ac;
     box-shadow: 0 3px 1px #000 ;
     font-family: 'UnitedStates';
     line-height: 1.6em;
@@ -50,6 +88,16 @@ body {
     justify-content: center;
     padding: 10px 20px;
     z-index: 2000;
+    background-image: url(images/money-frame.png);
+    background-repeat: repeat-x;
+    background-size: auto 40%;
+    background-position-y:center;
+}
+.header div {
+    background-color: #c2c1ac;
+    padding: 0 10px;
+    color: #2f5024;
+
 }
 
 .wrapper {
@@ -64,7 +112,7 @@ body {
     min-height: 400px;
     height: fit-content;
     margin: 0 auto;
-    background-color: #5f5f59;
+    background-color: #474742;
     border-radius: 14px;
     padding: 20px;
     /* position: relative; */
@@ -85,7 +133,8 @@ body {
     position: absolute;
     top: -20px;
     left: -20px;
-    background-image: url(images/frame-bad2.svg);
+    background-image: url(images/frame-bad1.png);
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 100;
 }
@@ -95,36 +144,57 @@ body {
     height: auto;
     margin-top: 40px;
     margin-bottom: 10px;
-    color: #161615;
+    color: #000000;
     text-align: center;
     z-index: 110;
 }
 
 .charTxt h2 {
     margin: 0;
-    font-family: 'UnitedStates';
-    font-size: 2em;
+    font-family: 'DEATH FONT';
+    font-size: 4em;
 }
 
 .turdBubble {
     position: fixed;
-    width: 160px;
+    width: 200px;
     min-height: 100px;
-    padding: 20px;
+    padding: 50px 30px 30px 30px;
     top: 50%;
     transform: translate(50%,-50%);
-    right: calc(50% - 280px - 90px);
-    background: #686864;
+    right: calc(50% - 280px - 110px);
+    background: #c2c1ac;
     z-index: -1;
     text-align: center;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 0 5px #000 ;
+    background-image: url(images/money-frame.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    background-position-y: 5px;
+    color: #2f5024;
+    line-height: 1.5em;
+    font-family: 'Libre Baskerville', serif;
 }
 .turdBubble img {
     display: block;
     width: 60px;
-    height: 50px;
+    height: 60px;
     /* background: url(images/factIcon.svg) no-repeat; */
-    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.turdBubble::after {
+    content: "";
+    width: 100%;
+    height: 15px;
+    background-image: url(images/money-frame_USD.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
 }
 /* .turdBubble ::after {
     width: 190px;
@@ -147,8 +217,22 @@ body {
     width: 60px;
     height: 60px;
     position: fixed;
-    background-color: #c14953;
-    border-radius: 10px;
+    background-color: #c2c1ac;
+    border-radius: 50%;
+    border: #2f5024 double 4px;
+    box-shadow: 0 0 5px #000 ;
+}
+.randomizer:hover, .randomFact:hover {
+    background-color: #9e9d8f;
+    transition-duration: 300ms;
+}
+
+.randomizer img, .randomFact img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .randomizer {
@@ -186,6 +270,8 @@ body {
     .charPic::after {
         width: 320px;
         height: 320px;
+        background-image: url(images/frame-bad2.svg);
+        background-repeat: no-repeat;
     }
     
     .charTxt {
