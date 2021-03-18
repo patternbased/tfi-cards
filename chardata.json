@@ -1,82 +1,370 @@
 [
-  {
-     "Name":"Steve Mnuchin",
-     "Image":"SteveMnuchin.jpg",
-     "Fact":[
-          "Son of Robert Mnuchin, partner at Goldman Sachs",
-          "Was member of Skull and Bones at Yale.",
-          "Known as forclosure king. Made part of fortune by forclosing on homeowners during 2008 financial crisis.",
-          "SM Turd 4",
-          "SM Turd 5",
-          "SM Turd 6",
-          "SM Turd 7",
-          "SM Turd 8",
-          "SM Turd 9",
-          "SM Turd 10"
-     ]
-  },
-  {
-     "Name":"Donald Trump",
-     "Image":"DonaldTrump.jpg",
-     "Fact":[
-          "DT Turd 1",
-          "DT Turd 2",
-          "DT Turd 3",
-          "DT Turd 4",
-          "DT Turd 5",
-          "DT Turd 6",
-          "DT Turd 7",
-          "DT Turd 8",
-          "DT Turd 9",
-          "DT Turd 10"
-     ]
-  },
-  {
-     "Name":"Erik Prince",
-     "Image":"ErikPrince.jpg",
-     "Fact":[
-          "EP Turd 1",
-          "EP Turd 2",
-          "EP Turd 3",
-          "EP Turd 4",
-          "EP Turd 5",
-          "EP Turd 6",
-          "EP Turd 7",
-          "EP Turd 8",
-          "EP Turd 9",
-          "EP Turd 10"
-     ]
-  },
-  {
-     "Name":"Betsy Devos",
-     "Image":"BetsyDevos.jpg",
-     "Fact":[
-          "BD Turd 1",
-          "BD Turd 2",
-          "BD Turd 3",
-          "BD Turd 4",
-          "BD Turd 5",
-          "BD Turd 6",
-          "BD Turd 7",
-          "BD Turd 8",
-          "BD Turd 9",
-          "BD Turd 10"
-     ]
-  },
-  {
-     "Name":"Mitch McConnel",
-     "Image":"MitchMcConnel.jpg",
-     "Fact":[
-          "MM Turd 1",
-          "MM Turd 2",
-          "MM Turd 3",
-          "MM Turd 4",
-          "MM Turd 5",
-          "MM Turd 6",
-          "MM Turd 7",
-          "MM Turd 8",
-          "MM Turd 9",
-          "MM Turd 10"
-     ]
-  }
-]
+   {
+      "Name":"Steve Mnuchin",
+      "Image":"SteveMnuchin.jpg",
+      "Fact":[
+           "Son of Robert Mnuchin, partner at Goldman Sachs",
+           "Was member of Skull and Bones at Yale.",
+           "Known as forclosure king. Made part of fortune by forclosing on homeowners during 2008 financial crisis.",
+           "Upon graduating from Yale University in 1985, Mnuchin joined the investment bank Goldman Sachs where his father, Robert E. Mnuchin, was a General Partner.",
+           "\"Investment Banker\".",
+           "Mnuchin worked at Goldman Sachs for 17 years, eventually becoming its Chief Information Officer.",
+           "After he left Goldman Sachs in 2002, he worked for and founded several hedge funds. Hedge funds are essentially bets AGAINST companies and the opposite of investments.",
+           "Mnuchin was a member of Sears Holdings's Board of Directors from 2005 until December 2016, and prior to this, Mnuchin served on Kmart's Board of Directors.[5] After Sears went bankrupt, the company that formerly owned it sued Mnuchin and ex-CEO Edward Lampert for \"asset stripping\" during their tenure.",
+           "During the financial crisis of 2007–2008, Mnuchin bought failed residential lender IndyMac. He changed the name to OneWest Bank and rebuilt the bank, then sold it to CIT Group in 2015. During his time as OneWest CEO and Chairman, the bank became embroiled in several lawsuits over questionable foreclosures.",
+           "While a student at Yale, Mnuchin drove a Porsche and lived at New Haven's Taft Hotel.[23]"
+      ]
+   },
+   {
+      "Name":"Donald Trump",
+      "Image":"DonaldTrump.jpg",
+      "Fact":[
+           "Son of New York real estate developer, Fred Trump.",
+           "Was president of the United States of America from 2016-2017.",
+           "Bankrupted businessman six times over.",
+           "Regarded by many as the worst president in the history of the United States.",
+           "Donald John Trump (born June 14, 1946) is an American media personality and businessman who served as the 45th president of the United States from 2017 to 2021.",
+           "his over-leveraged hotel and casino businesses in Atlantic City and New York filed for Chapter 11 bankruptcy protection six times between 1991 and 2009.",
+           "In the late 1980s, Trump mimicked the actions of Wall Street's so-called corporate raiders. ",
+           "In 2004, Trump co-founded Trump University, a company that sold real estate training courses priced from $1,500 to $35,000. In 2013, the State of New York filed a $40 million civil suit against Trump University, alleging that the company made false statements and defrauded consumers.",
+           "For much of his term through September 2020, Trump's approval and disapproval ratings were unusually stable, reaching a high of 49 percent and a low of 35 percent.[746][747] He completed his term with a record-low approval rating of between 29 percent to 34 percent (the lowest of any president since modern scientific polling began)",
+           "Trump's approval ratings showed a record partisan gap: over of the course of his presidency, Trump's approval rating among Republicans was 88 percent and his approval rating among Democrats was 7 percent."
+      ]
+   },
+   {
+      "Name":"Erik Prince",
+      "Image":"ErikPrince.jpg",
+      "Fact":[
+           "American businessman, former U.S. Navy SEAL officer, and the founder of the private military company Blackwater USA, now called Academi.",
+           "He served as Blackwater's CEO until 2009, and as its chairman, until its sale to a group of investors in 2010. Prince now heads the private equity firm Frontier Resource Group, and is chairman of the Hong Kong-listed Frontier Services Group.",
+           "Prince is the son of engineer and businessman Edgar Prince, and the brother of former U.S. Secretary of Education Betsy DeVos.",
+           "In 1990, Prince secured an internship in the White House under George H.W. Bush,[11] but soon left to intern for California congressman Dana Rohrabacher, President Ronald Reagan's former speechwriter.",
+           "Blackwater came under increasing criticism after the Nisour Square massacre in September 2007, in which Blackwater employees opened fire in a crowded square in Baghdad, killing 17 Iraqi civilians and seriously wounding 20 more. Three guards were convicted in October 2014 of 14 manslaughter charges, and another of murder, in a U.S. court in 2019.",
+           "Prince was part of a CIA task force created to engage in targeted killings of suspected terrorists, possibly in violation of domestic and international law. Prince alleged, without evidence, that the House intelligence congressional committee leaked his name to the press.",
+           "After Blackwater faced mounting legal problems in the United States, Prince was hired by the crown prince of Abu Dhabi and moved to Abu Dhabi in 2010. His task was to assemble an 800-member troop of foreign troops for the U.A.E., which was planned months before the Arab Spring.",
+           "The New York Times reported in May 2018 that Prince arranged an August 2016 meeting in Trump Tower, attended by himself, Donald Trump, Jr., George Nader and Joel Zamel, during which Nader reportedly told Trump Jr. the crown princes of Saudi Arabia and the UAE were eager to help his father win the election, and Zamel pitched a social media manipulation campaign from his Israeli company Psy-Group.",
+           "Prince is the younger brother of former United States Secretary of Education Betsy DeVos,[85][86] and the brother-in-law of former Alticor (Amway) president Dick DeVos.",
+           "Prince has frequently donated to conservative Christian organizations, including the Acton Institute for the Study of Religion and Liberty and the Prison Fellowship, and conservative political groups such as the Council for National Policy, of which his father was vice president at the time of his death."
+      ]
+   },
+   {
+      "Name":"Betsy Devos",
+      "Image":"BetsyDeVos.jpg",
+      "Fact":[
+           "Married to former Amway CEO Dick DeVos.[8][9] Her brother, Erik Prince, a former U.S. Navy SEAL officer, is the founder of Blackwater USA",
+           "DeVos is known for her support for school choice, school voucher programs, and charter schools.",
+           "She was Republican national committeewoman for Michigan from 1992 to 1997 and served as chair of the Michigan Republican Party",
+           "Her brother, Erik Prince, a former U.S. Navy SEAL officer, is the founder of Blackwater USA.",
+           "Her father is Edgar Prince, founder of the Prince Corporation. In 2016, the family was listed by Forbes as the 88th-richest in America, with an estimated net worth of $5.4 billion.",
+           "She grew up in Holland, Michigan, the eldest of four children born to Elsa (Zwiep) Prince (later, Broekhuizen) and Edgar Prince, a billionaire industrialist.",
+           "DeVos was educated at the Holland Christian High School, a private school located in her home town of Holland, Michigan.",
+           "DeVos grew up as a member of the Christian Reformed Church in North America. She has been a member and elder of Mars Hill Bible Church in Grand Rapids.",
+           "Former Fuller Seminary president Richard Mouw, with whom DeVos served on a committee, said she is influenced by Dutch neo-Calvinist theologian Abraham Kuyper, a founding figure in Christian Democracy political ideology.",
+           "DeVos personally raised more than $150,000 for the 2004 Bush re-election campaign, and hosted a Republican fundraiser at her home in October 2008 that was headlined by President George W. Bush"
+      ]
+   },
+   {
+      "Name":"Mitch McConnel",
+      "Image":"MitchMcConnell.jpg",
+      "Fact":[
+           "A member of the Republican Party, McConnell was first elected to the U.S. Senate in 1984, and is the second Kentuckian to serve as a party leader in the Senate.",
+           "In October 1974, McConnell returned to Washington, D.C., to fill a position as Deputy Assistant Attorney General under President Gerald Ford, where he worked alongside Robert Bork, Laurence Silberman, and Antonin Scalia.",
+           "In his early years as a politician in Kentucky, McConnell was known as a pragmatist and a moderate Republican. Over time, he shifted to the right and became more conservative.",
+           "According to one of his biographers, McConnell transformed \"from a moderate Republican who supported abortion rights and public employee unions to the embodiment of partisan obstructionism and conservative orthodoxy on Capitol Hill.\"",
+           "McConnell has been widely described as an obstructionist.",
+           "One of McConnell's most common tactics to delay or obstruct legislation and judicial appointments has been the filibuster. A filibuster is an attempt to \"talk a bill to death\".",
+           "In response to the COVID-19 pandemic, McConnell initially opposed the Families First Coronavirus Response Act, calling it a Democratic \"ideological wish list\". He subsequently reversed his position when Trump endorsed the proposed package",
+           "McConnell has taken conservative stances for at least the last two decades. During his Senate tenure, McConnell has led opposition to stricter campaign finance laws, culminating in the Supreme Court ruling that partially overturned the Bipartisan Campaign Reform Act (McCain-Feingold) in 2010.",
+           "McConnell's detractors have called him by a number of nicknames, including \"Moscow Mitch\", \"Cocaine Mitch\", the \"Grim Reaper\", \"Darth Vader\", \"Rich Mitch\", \"Nuclear Mitch\", and \"Midnight Mitch\". McConnell is known to embrace several of them; however, he objected strenuously to the nickname \"Moscow Mitch\".",
+           "In 2010, the OpenSecrets website ranked McConnell one of the wealthiest members of the U.S. Senate, based on net household worth."
+      ]
+   },
+   {
+      "Name":"Rupert Murdoch",
+      "Image":"RupertMurdoch.jpg",
+      "Fact":[
+           "Keith Rupert Murdoch is an Australian-born American media mogul. Through his company News Corp, he is the owner of hundreds of local, national, and international publishing outlets around the world.",
+           "In the 1950s and 1960s, Murdoch acquired a number of newspapers in Australia and New Zealand before expanding into the United Kingdom in 1969, taking over the News of the World, followed closely by The Sun.",
+           "His holding company News Corporation acquired Twentieth Century Fox (1985), HarperCollins (1989),[5] and The Wall Street Journal (2007).",
+           "In July 2011, Murdoch faced allegations that his companies, including the News of the World, owned by News Corporation, had been regularly hacking the phones of celebrities, royalty, and public citizens.",
+           "Murdoch faced police and government investigations into bribery and corruption by the British government and FBI investigations in the U.S.",
+           "Many of Murdoch's papers and television channels have been accused of biased and misleading coverage to support his business interests and political allies, and some have credited his influence with major political developments in the UK, U.S., and Australia.",
+           "Keith Rupert Murdoch was born on 11 March 1931 in Melbourne, Victoria, Australia, the son of businessman Sir Keith Murdoch.",
+           "In 1998, Murdoch made an attempt to buy the football club Manchester United F.C., with an offer of £625 million, but this failed. It was the largest amount ever offered for a sports club. It was blocked by the United Kingdom's Competition Commission, which stated that the acquisition would have \"hurt competition in the broadcast industry and the quality of British football\".",
+           "News Corporation has subsidiaries in the Bahamas, the Cayman Islands, the Channel Islands and the Virgin Islands. From 1986, News Corporation's annual tax bill averaged around seven percent of its profits.",
+           "According to Forbes' real time list of world's billionaires, Murdoch is the 34th richest person in the US and the 96th richest person in the world, with a net worth of US$13.1 billion as of February 2017."
+      ]
+   },
+   {
+      "Name":"Steve Bannon",
+      "Image":"SteveBannon.jpg",
+      "Fact":[
+           "\"Investment Banker\"",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents.",
+           "Grifts mentally challenged people out of money and gets away with it while stoking white nationalist and far right movements on two continents."
+      ]
+   },
+   {
+      "Name":"Osama Bin Laden",
+      "Image":"OsamaBinLaden.jpg",
+      "Fact":[
+           "Osama bin Mohammed bin Awad bin Laden was a founder of the pan-Islamic militant organization al-Qaeda.",
+           "He was a Saudi Arabian citizen until 1994 and a member of the wealthy bin Laden family.",
+           "Bin Laden's father was Mohammed bin Awad bin Laden, a Saudi millionaire from Hadhramaut, Yemen, and the founder of the construction company, Saudi Binladin Group.",
+           "He was born in Saudi Arabia and studied at university in the country until 1979, when he joined Mujahideen forces in Pakistan fighting against the Soviet Union in Afghanistan.",
+           "He helped to fund the Mujahideen by funneling arms, money, and fighters from the Arab world into Afghanistan, and gained popularity among many Arabs.",
+           "In 1988, he formed al-Qaeda.[13] He was banished from Saudi Arabia in 1992, and shifted his base to Sudan, until U.S. pressure forced him to leave Sudan in 1996.",
+           "After establishing a new base in Afghanistan, he declared a war against the United States, initiating a series of bombings and related attacks.",
+           "Bin Laden is most well known for his role in masterminding the September 11 attacks, which resulted in the deaths of nearly 3,000 and prompted the United States to initiate the War on Terror.",
+           "Under bin Laden's leadership, the al-Qaeda organization was responsible for, in addition to the September 11 attacks in the United States, many other mass-casualty attacks worldwide.",
+           "The bin Laden family made $5 billion in the construction industry, of which Osama later inherited around $25–30 million."
+      ]
+   },
+   {
+      "Name":"Elon Musk",
+      "Image":"ElonMusk.jpg",
+      "Fact":[
+           "Son of South African emerald mine owner Errol Musk.",
+           "Paid a private investigator $50,000 To Dig Up Dirt On A British Cave Rescuer He Called A \"Pedo Guy\" in an attempt to ruin the rescuer's life because he didn't like something the rescuer tweeted.",
+           "wrote on Twitter that a second U.S. “government stimulus package is not in the best interests of the people.” Someone responded to Musk soon after, “You know what wasn’t in the best interest of people? The U.S. government organizing a coup against Evo Morales in Bolivia so you could obtain the lithium there.” Musk then wrote: “We will coup whoever we want! Deal with it.”",
+           "Named one of his children X Æ A-12.",
+           "in 2018, the US Securities and Exchange Commission (SEC) sued him for falsely tweeting that he had secured funding for a private takeover of Tesla. He settled with the SEC, temporarily stepping down from his chairmanship and accepting limitations on his Twitter usage.",
+           "Musk has spread misinformation about the COVID-19 pandemic and has received criticism from experts for his other views on such matters as artificial intelligence and public transport.",
+           "Musk was born to a Canadian mother and South African father and raised in Pretoria, South Africa. He briefly attended the University of Pretoria before moving to Canada aged 17 to attend Queen's University.",
+           "In 2016, he co-founded Neuralink, a neurotechnology company focused on developing brain–computer interfaces.",
+           "At a live demonstration in August 2020, Musk described one of their early devices as \"a Fitbit in your skull\" which could soon cure paralysis, deafness, blindness, and other disabilities. Many neuroscientists and publications criticized these claims; MIT Technology Review described them as \"highly speculative\" and \"neuroscience theater\".",
+           "Elon is an overrated jerk and attention freak who, like Trump got lucky in a corny celebrity obsessed society. 10"
+      ]
+   },
+   {
+      "Name":"Mark Zuckerburg",
+      "Image":"MarkZuckerburg.jpg",
+      "Fact":[
+           "Filed lawsuits against native Hawaiians who owned nearly a dozen tiny parcels to force them to sell their land at auction so he could “enhance” the privacy of his 750+ acre hawaiin estate.",
+           "A squirrel dying in front of your house may be more relevant to your interests right now than people dying in Africa.' - Mark Zuckerburg",
+           "Made a music-less version of MySpace called Facebook.",
+           "Known for co-founding Facebook, Inc. and serves as its chairman, chief executive officer, and controlling shareholder.",
+           "Zuckerberg has never revealed his own political affiliation or voting history: some news outlets consider him to be a conservative, while others consider him liberal.",
+           "Raised Jewish, Zuckerberg once identified as an atheist but has since revised his views. In 2016, he said: \"I was raised Jewish and then I went through a period where I questioned things, but now I believe religion is very important.\"",
+           "In January 2017, Zuckerberg filed eight \"quiet title and partition\" lawsuits against hundreds of native Hawaiians to purchase small tracts of land which they own",
+           "Facebook uses a complicated series of shell companies in tax havens to avoid paying billions of dollars in corporate tax.",
+           "Facebook routes billions of dollars in profits using the Double Irish and Dutch Sandwich tax avoidance schemes to bank accounts in the Cayman Islands.",
+           "Facebook hires some employees through contractors, including Accenture, Arvato, Cognizant, CPL Resources, and Genpact, to serve as content moderators, reviewing potentially problematic content posted to both Facebook and Instagram.Many of these contractors face unrealistic expectations, harsh working conditions, and constant exposure to disturbing content, including graphic violence, animal abuse, and child pornography"
+      ]
+   },
+   {
+      "Name":"Dick Cheney",
+      "Image":"DickCheney.jpg",
+      "Fact":[
+           "Between 1987 and 1989, during his last term in Congress, Cheney was a director of the Council on Foreign Relations foreign policy organization.",
+           "He has been cited as the most powerful vice president in American history.",
+           "He is also one of the most unpopular American politicians, holding an approval rating of just 13% when he left office.",
+           "From 1995 until 2000, he served as Chairman of the Board and Chief Executive Officer of Halliburton, a Fortune 500 company.",
+           "Cheney's record as CEO was subject to some dispute among Wall Street analysts. A 1998 merger between Halliburton and Dresser Industries attracted the criticism of some Dresser executives for Halliburton's lack of accounting transparency.",
+           "Cheney's net worth, estimated to be between $19 million and $86 million, is largely derived from his post at Halliburton. His 2006 gross joint income with his wife was nearly $8.82 million.",
+           "Following 9/11, Cheney was instrumental in providing a primary justification for a renewed war against Iraq.",
+           "Cheney helped shape Bush's approach to the \"War on Terror\", making numerous public statements alleging Iraq possessed weapons of mass destruction, and making several personal visits to CIA headquarters, where he questioned mid-level agency analysts on their conclusions.",
+           "Following the US invasion of Iraq, Cheney remained steadfast in his support of the war, stating that it would be an \"enormous success story\", and made many visits to the country. He often criticized war critics, calling them \"opportunists\" who were peddling \"cynical and pernicious falsehoods\" to gain political advantage while US soldiers died in Iraq.",
+           "In a March 24, 2008, extended interview conducted in Ankara, Turkey, with ABC News correspondent Martha Raddatz on the fifth anniversary of the original U.S. military assault on Iraq, Cheney responded to a question about public opinion polls showing that Americans had lost confidence in the war by simply replying \"So?\""
+      ]
+   },
+   {
+      "Name":"Benjamin Netanyahu",
+      "Image":"BenjaminNetanyahu.jpg",
+      "Fact":[
+           "Benjamin Netanyahu is a super corrupt devil man.",
+           "Accused of taking bribes from billionaire supporters.",
+           "With cat-like deftness, Netanyahu has always managed to escape prosecution.",
+           "Suspected of accepting nearly $300,000 in gifts, including champagne and fancy cigars, from Hollywood mogul Arnon Milchan and Australian billionaire James Packer. In exchange, Netanyahu allegedly lobbied U.S. officials on Milchan’s behalf in a visa matter and helped promote his business affairs in Israel.",
+           "Suspected of offering preferential treatment to a newspaper publisher in exchange for favorable coverage.",
+           "His wife Sara Netanyahu has faced repeated allegations of mistreating household help.",
+           "In 2016, an official expense report found that Netanyahu spent more than $600,000 of public funds on a six-day trip to New York, including $1,600 on a personal hairdresser.",
+           "He was chided for spending $127,000 in public funds for a special sleeping cabin on a flight to London. Netanyahu said he was unaware of the cost and halted the practice.",
+           "Finally halted purchases at his favorite Jerusalem ice cream parlor after a newspaper reported his office ran up a $2,700 bill, mostly for vanilla and pistachio.",
+           "Last month a recording surfaced of Netanyahu’s eldest son, Yair, joyriding with his wealthy buddies to Tel Aviv strip clubs in a drunken night out in a taxpayer-funded government vehicle."
+      ]
+   },
+   {
+      "Name":"Stephen Miller",
+      "Image":"StephenMiller.jpg",
+      "Fact":[
+           "On the Southern Poverty Law Center's list of extremists.",
+           "Emails leaked in November 2019 showed that Miller had promoted articles from white nationalist publications VDARE and American Renaissance, and had espoused conspiracy theories.",
+           "Miller was born on August 23, 1985, in Santa Monica, California, where he was raised, the second of three children in the Jewish family of Michael D. Miller, a real estate investor.",
+           "Miller has said he became a committed conservative after reading Guns, Crime, and Freedom, a book opposing gun control by Wayne LaPierre, CEO of the National Rifle Association.",
+           "While attending Santa Monica High School, Miller began appearing on conservative talk radio.",
+           "In 2002, at the age of 16, Miller wrote a letter to the editor of the Santa Monica Outlook criticizing his school's response to the September 11 attacks; he wrote: \"Osama Bin Laden would feel very welcome at Santa Monica High School.\"",
+           "While in high school, Miller cited Rush Limbaugh's book The Way Things Ought To Be as his favorite.",
+           "Miller invited conservative activist David Horowitz to speak, first at the high school and later at Duke University; afterward he denounced the fact that neither institution would authorize the event.",
+           "Miller was in the habit of \"riling up his fellow [high school] classmates with controversial statements\"; for instance, he told Latino students to speak only English.",
+           "At 16, Miller called in to The Larry Elder Show, a conservative radio show, to complain about his high school's alleged lack of patriotism because it did not recite the Pledge of Allegiance."
+      ]
+   },
+   {
+      "Name":"Alan Dershowitz",
+      "Image":"AlanDershowitz.jpg",
+      "Fact":[
+           "Dershowitz was born in Williamsburg, Brooklyn, on September 1, 1938, the son of Claire (née Ringel) and Harry Dershowitz, an Orthodox Jewish couple.",
+           "he attended Yale Law School, where he was editor-in-chief of the Yale Law Journal, and graduated first in his class with a Bachelor of Laws (LL.B.) in 1962. He was a member of a Conservative minyan at Harvard Hillel but is a secular Jew.",
+           "In May 2018, Dershowitz joined Harvey Weinstein's legal team as a consultant for Weinstein's lawyer Benjamin Brafman. Dershowitz advised the team on obtaining documents from The Weinstein Company related to the sexual abuse allegations against Weinstein",
+           "In January 2020, Dershowitz joined 45th President Donald Trump's legal team as Trump was defending against impeachment charges that had proceeded to the Senate.",
+           "Dershowitz endorsed Hillary Clinton in the 2008 presidential election, and later endorsed the party nominee, Barack Obama.",
+           "Dershowitz claimed that Trump's encouragement of the 2021 storming of the United States Capitol was \"constitutionally protected\" speech. He said it would be his \"honor and privilege\" to defend Trump in a trial. Trump reportedly considered him for his defense team.",
+           "In a December 30, 2014 Florida court filing, Virginia Giuffre alleged she was sexually trafficked by Jeffrey Epstein, who lent her to people for sex, including Dershowitz and Prince Andrew.",
+           "Dershowitz responded by saying he planned to sue Netflix and repeated his denial of Giuffre's account; he also accused Giuffre of selling false allegations to news outlets.[150] As of November 2020, no such lawsuit has been filed.",
+           "Dershowitz was named a Guggenheim Fellow in 1979, and in 1983 received the William O. Douglas First Amendment Award from the Anti-Defamation League for his work on civil rights.",
+           ""
+      ]
+   },
+   {
+      "Name":"Brett Kavanaugh",
+      "Image":"BrettKavanaugh.jpg",
+      "Fact":[
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 1",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 2",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 3",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 4",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 5",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 6",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 7",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 8",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 9",
+           "Brett Kavanaugh is a poop stain on the already poop stainy supreme shart. 10"
+      ]
+   },
+   {
+      "Name":"Jeff Bezos",
+      "Image":"JeffBezos.jpg",
+      "Fact":[
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 1",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 2",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 3",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 4",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 5",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 6",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 7",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 8",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 9",
+           "Jeff Bezos is a former hedge fund finance clown to works his workers to death for fun and profit. 10"
+      ]
+   },
+   {
+      "Name":"Roger Ailes",
+      "Image":"RogerAiles.jpg",
+      "Fact":[
+           "He was the chairman and CEO of Fox News, Fox Television Stations and 20th Television, from which he resigned in July 2016 after allegations of sexual harassment were made by 23 women.",
+           "Ailes was a media consultant for Republican presidents Richard Nixon, Ronald Reagan, and George H. W. Bush, and for Rudy Giuliani's first mayoral campaign.",
+           "In 2016, he became an adviser to the Donald Trump campaign, where he assisted with debate preparation.",
+           "In 1984, Ailes worked on the campaign to reelect Ronald Reagan.",
+           "In 1987 and 1988, Ailes was credited (along with fellow consultant Lee Atwater) with guiding George H. W. Bush to victory in the Republican primaries and the victory over Michael Dukakis.",
+           "Days after the 9/11 attacks, Ailes advised President George W. Bush that the American public would be patient as long as they were convinced that Bush was using the harshest measures possible.",
+           "His father was abusive, and his parents divorced in 1960.",
+           "In a book published in 2014, Gabriel Sherman[3] alleged that, in the 1980s, Ailes offered a television producer a raise if she would sleep with him.",
+           "",
+           ""
+      ]
+   },
+   {
+      "Name":"Rush Limbaugh",
+      "Image":"RushLimbaugh.jpg",
+      "Fact":[
+           "An OG right wing radio host. 1",
+           "An OG right wing radio host. 2",
+           "An OG right wing radio host. 3",
+           "An OG right wing radio host. 4",
+           "An OG right wing radio host. 5",
+           "An OG right wing radio host. 6",
+           "An OG right wing radio host. 7",
+           "An OG right wing radio host. 8",
+           "An OG right wing radio host. 9",
+           "An OG right wing radio host. 10"
+      ]
+   },
+   {
+      "Name":"Bill Clinton",
+      "Image":"BillClinton.jpg",
+      "Fact":[
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 1",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 2",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 3",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 4",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 5",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 6",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 7",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 8",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 9",
+           "Bill Clinton is a sneaky little cheesy grifter guy who became president and deregulated media helping to cause the nightmare we are in today. 10"
+      ]
+   },
+   {
+      "Name":"Tucker Carlson",
+      "Image":"TuckerCarlson.jpg",
+      "Fact":[
+           "Tucker Carlson is an evil rich boy white supremicist. 1",
+           "Tucker Carlson is an evil rich boy white supremicist. 2",
+           "Tucker Carlson is an evil rich boy white supremicist. 3",
+           "Tucker Carlson is an evil rich boy white supremicist. 4",
+           "Tucker Carlson is an evil rich boy white supremicist. 5",
+           "Tucker Carlson is an evil rich boy white supremicist. 6",
+           "Tucker Carlson is an evil rich boy white supremicist. 7",
+           "Tucker Carlson is an evil rich boy white supremicist. 8",
+           "Tucker Carlson is an evil rich boy white supremicist. 9",
+           "Tucker Carlson is an evil rich boy white supremicist. 10"
+      ]
+   },
+   {
+      "Name":"David Koch",
+      "Image":"DavidKoch.jpg",
+      "Fact":[
+           "David Koch is an evil monster with his evil monster brother. 1",
+           "David Koch is an evil monster with his evil monster brother. 2",
+           "David Koch is an evil monster with his evil monster brother. 3",
+           "David Koch is an evil monster with his evil monster brother. 4",
+           "David Koch is an evil monster with his evil monster brother. 5",
+           "David Koch is an evil monster with his evil monster brother. 6",
+           "David Koch is an evil monster with his evil monster brother. 7",
+           "David Koch is an evil monster with his evil monster brother. 8",
+           "David Koch is an evil monster with his evil monster brother. 9",
+           "David Koch is an evil monster with his evil monster brother. 10"
+      ]
+   },
+   {
+      "Name":"Charles Koch",
+      "Image":"CharlesKoch.jpg",
+      "Fact":[
+           "Charles Koch is an evil monster with his evil monster brother. 1",
+           "Charles Koch is an evil monster with his evil monster brother. 2",
+           "Charles Koch is an evil monster with his evil monster brother. 3",
+           "Charles Koch is an evil monster with his evil monster brother. 4",
+           "Charles Koch is an evil monster with his evil monster brother. 5",
+           "Charles Koch is an evil monster with his evil monster brother. 6",
+           "Charles Koch is an evil monster with his evil monster brother. 7",
+           "Charles Koch is an evil monster with his evil monster brother. 8",
+           "Charles Koch is an evil monster with his evil monster brother. 9",
+           "Charles Koch is an evil monster with his evil monster brother. 10"
+      ]
+   },
+   {
+      "Name":"Jeffery Epstein",
+      "Image":"JeffreyEpstein.jpg",
+      "Fact":[
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 1",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 2",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 3",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 4",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 5",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 6",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 7",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 8",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 9",
+           "Jeffrey Epstein was a child rapist and child sex trafficker to the Billionaire class. 10"
+      ]
+   }
+ ]
