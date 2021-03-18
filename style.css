@@ -75,6 +75,9 @@ body, html {
 
 body {
     background: #161615;
+    background: url(images/mockup-photos-5nUNdLueQio-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .blackScreen {
@@ -100,19 +103,32 @@ body {
     text-align: center;
     border-radius: 0 2px 2px 0;
     box-shadow: 0 0 5px #000 ;
-    background-image: url(images/money-frame.png);
+    background-image: url(images/bg-texture.png);
     background-repeat: repeat-x;
     background-size: 100%;
     background-position-y: 3px;
     color: #2f5024;
     line-height: 1.5em;
     font-family: 'Libre Baskerville', serif;
+    border: #c2c1ac solid 1px;
 }
 
 .startModal img {
     width: 150px;
     display: block;
     margin: 30px auto;
+}
+
+.startModal::before {
+    content: "";
+    width: 100%;
+    height: 20px;
+    background-image: url(images/money-frame.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    position: absolute;
+    top: 5px;
+    left: 0;
 }
 
 .startModal::after {
@@ -138,22 +154,32 @@ body {
     justify-content: center;
     padding: 10px 20px;
     z-index: 2000;
+    background-image: url(images/bg-texture.png);
+}
+.header::before {
+    content: "";
+    width: 100%;
+    height: 20px;
     background-image: url(images/money-frame.png);
     background-repeat: repeat-x;
-    background-size: auto 40%;
-    background-position-y:center;
+    background-size: 20%;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
 .header div {
     background-color: #c2c1ac;
+    background-image: url(images/bg-texture.png);
     padding: 0 10px;
     color: #2f5024;
+    z-index: 250;
 }
 
 .wrapper {
     width: 100%;
     height: calc(100% - 120px);
-    background: url(images/bg-texture.png);
     padding: 40px 0;
+    z-index: -1000;
 }
 
 .character {
@@ -161,12 +187,15 @@ body {
     min-height: 400px;
     height: fit-content;
     margin: 0 auto;
-    background-color: #474742;
+    /* background-color: #474742; */
+    background-color: #111111;
     border-radius: 14px;
     padding: 20px;
     /* position: relative; */
-    box-shadow: 0 0 5px #000 ;
+    box-shadow: 0 0 8px #000 ;
     position: relative;
+    border: #35332e solid 1px;
+    /* z-index: 10; */
 }
 
 .charPic {
@@ -183,7 +212,7 @@ body {
     position: absolute;
     top: -20px;
     left: -20px;
-    background-image: url(images/frame-bad1.png);
+    background-image: url(images/frame-bad3.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 100;
@@ -206,9 +235,9 @@ body {
 .charTxt {
     width: 500px;
     height: auto;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 10px;
-    color: #000000;
+    color: #9e9d8f;
     text-align: center;
     z-index: 110;
 }
@@ -216,7 +245,8 @@ body {
 .charTxt h2 {
     margin: 0;
     font-family: 'DEATH FONT';
-    font-size: 4em;
+    font-size: 3.2em;
+    letter-spacing: 0.1em;
 }
 
 .turdBubble {
@@ -229,14 +259,26 @@ body {
     z-index: -1;
     text-align: center;
     border-radius: 0 2px 2px 0;
-    box-shadow: 0 0 5px #000 ;
-    background-image: url(images/money-frame.png);
+    box-shadow: 0 0 8px #000 ;
+    background-image: url(images/bg-texture.png);
     background-repeat: repeat-x;
     background-size: 100%;
     background-position-y: 3px;
     color: #2f5024;
     line-height: 1.5em;
     font-family: 'Libre Baskerville', serif;
+    border: #c2c1ac solid 1px;
+}
+.turdBubble::before {
+    content: "";
+    width: 100%;
+    height: 15px;
+    background-image: url(images/money-frame.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    position: absolute;
+    top: 3px;
+    left: 0;
 }
 .turdBubble::after {
     content: "";
@@ -375,23 +417,30 @@ body {
     .wrapper {
         padding: 20px 0;
         height: calc(100% - 80px);
+        overflow-y: scroll;
     }
     .character {
-        width: 300px;
+        max-width: calc(100vw - 60px);
         min-height: 400px;
+        margin-bottom: 60px;
     }
-    
     .charPic {
-        width: 280px;
-        height: 280px;
+        width: calc(100vw - 100px);
+        max-width: 480px;
+        height: calc(100vw - 100px);
+        max-height: 480px;
+        margin: 20px auto;
     }
     .charPic::after {
-        width: 320px;
-        height: 320px;
+        width: calc(100vw - 60px);
+        height: calc(100vw - 60px);
+        max-width: 500px;
+        max-height: 500px;
     }
     
     .charTxt {
-        width: 300px;
+        width: calc(100vw - 60px);
+        max-width: 500px;
         margin-bottom: 0;
     }
     .charTxt h2 {
@@ -407,7 +456,8 @@ body {
         min-height: unset;
         padding: 0;
         box-shadow: none;
-        color: #000000;
+        color: #9e9d8f;
+        border: none;
     }
     .turdBubble::after {
         background: none;
@@ -419,12 +469,14 @@ body {
         height: 30px;
         position: relative;
         margin: 10px auto;
-        background-image: url(images/factIcon.svg);
+        background-image: url(images/factIcon-wht.svg);
     }
     #turdR {
         display: none;
     }
     #turdL {
+        width: calc(100vw - 60px);
+        max-width: 500px;
         transform: unset;
         left: unset;
     }
@@ -469,48 +521,57 @@ body {
     
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 400px) {
     .wrapper {
         padding: 0;
         height: calc(100% - 40px);
     }
 
+    .header {
+        font-size: 0.8em;
+    }
+
     .character {
         width: calc(100vw - 20px);
-        height: calc(100vh - 80px);
+        max-width: unset;
+        height: fit-content;
+        margin: 5px 5px 60px 5px;
         border-radius: 0;
-        padding: 20px 10px;
+        padding: 20px 5px;
         overflow-y: scroll;
     }
     
     .charPic {
-        width: calc(100vw - 40px);
-        height: calc(100vw - 40px);
+        width: calc(100vw - 60px);
+        height: calc(100vw - 60px);
+        margin: 5px auto;
     }
     .charPic::after {
-        width: 100vw;
-        height: 100vw;
+        width: calc(100vw - 20px);
+        height: calc(100vw - 20px);
     }
     
     .charTxt {
-        width: calc(100vw - 20px);
-        margin-bottom: 0;
+        width: calc(100vw - 40px);
+        margin: 40px auto 0 auto;
     }
-    #randomizers {
+    #turdL {
+        width: calc(100vw - 40px);
+        margin: 0 auto;
+    }
+    /* #randomizers {
         height: 40px;
-        width: 100vw;
+        width: fit-content;
         background: #161615;
         position: fixed;
         bottom: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-    }
-    .randomizer, .randomFact {
+        right: 0;
+    } */
+    /* .randomizer, .randomFact {
         right: unset;
         bottom: unset;
         position: static;
         margin: 0 10px;
-    }
+    } */
 
 }
