@@ -77,6 +77,38 @@ body {
     background: #161615;
 }
 
+.blackScreen {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9900;
+}
+
+.startModal {
+    background-color: #c2c1ac;
+    width: 300px;
+    height: 200px;
+    padding: 60px 40px;
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 0 5px #000 ;
+    background-image: url(images/money-frame.png);
+    background-repeat: repeat-x;
+    background-size: 100%;
+    background-position-y: 3px;
+    color: #2f5024;
+    line-height: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+}
+
 .header {
     width: calc(100vw - 40px);
     height: 20px;
@@ -97,7 +129,6 @@ body {
     background-color: #c2c1ac;
     padding: 0 10px;
     color: #2f5024;
-
 }
 
 .wrapper {
@@ -241,7 +272,9 @@ body {
     margin-top: 50px;
 }
 
-.randomizer, .randomFact {
+/* Buttons */
+
+.randomizer, .randomFact, .controlMain, .stems {
     width: 60px;
     height: 60px;
     position: fixed;
@@ -263,6 +296,27 @@ body {
     left: 10px;
 }
 
+.controlMain {
+    left: 20px;
+    bottom: 20px;
+}
+
+#hero {
+    left: 20px;
+    bottom: 100px;
+}
+
+#villan {
+    left: 20px;
+    bottom: 180px;
+}
+
+.stems {
+    font-family: 'UnitedStates';
+    font-size: 1.2em;
+    line-height: 3.4em;
+    text-align: center;
+}
 .randomizer {
     right: 20px;
     bottom: 20px;
@@ -271,6 +325,24 @@ body {
 .randomFact {
     right: 20px;
     bottom: 100px;
+}
+
+.paused {
+    background-image: url(images/Play_btn.svg);
+}
+
+.playing {
+    background-image: url(images/Pause_btn.svg);
+}
+
+.muted {
+    background-color: #747160;
+    color: #203618;
+}
+
+.unmuted {
+    background-color: #203618;
+    color: #747160;
 }
 
 /* .randomFact {

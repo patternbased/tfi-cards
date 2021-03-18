@@ -6,8 +6,12 @@
     <title>The Finance Industry</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
 </head>
 <body>
+    <div class="blackScreen">
+        <div class="startModal">Click to start with audio</div>
+    </div>
 
     <div class="header">
         <div>Heading Test</div>
@@ -19,7 +23,7 @@
                 <img id="shuffleGIF" src="images/shuffle-villans.gif" alt="shuffle">
             </div>
             <div class="charTxt">
-                <h2 class="charName"></h2>
+                <h2 class="charName">Sons of Turd</h2>
                 <!-- <p class="charFact"></p> -->
             </div>
             <!-- <div class="randomFact"></div> -->
@@ -34,13 +38,18 @@
                 <p class="charFact"></p>
             </div>
         </div>
+        <div id="controllers">
+            <div class="controlMain paused villan" onclick="controlHandler()"></div>
+            <div id="hero" class="muted stems">H</div>
+            <div id="villan" class="unmuted stems">V</div>
+        </div>
         <div id="randomizers">
-        <div class="randomFact">
-            <img src="images/randomFact.svg" alt="randomFact">
-        </div>
-        <div class="randomizer">
-            <img src="images/randomCard.svg" alt="randomCard">
-        </div>
+            <div class="randomFact">
+                <img src="images/randomFact.svg" alt="randomFact">
+            </div>
+            <div class="randomizer">
+                <img src="images/randomCard.svg" alt="randomCard">
+            </div>
         </div>
     </div>
     

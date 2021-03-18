@@ -4,7 +4,6 @@ alert('Giving up :( Cannot create an XMLHTTP instance');
 }
 characterRequest.open('GET','chardata.json', true);
 
-
 characterRequest.onload = function() {
     // parse data
     var characterData = JSON.parse(characterRequest.responseText);
@@ -16,7 +15,7 @@ characterRequest.onload = function() {
     $(randomizer).on("click",function(){
         i = getRandomWithOneExclusion(charLength, i);
         shuffleAnimation();
-        renderCard(i, 1200);
+        renderCard(i, 2000);
         // console.log(i);
     })
 
@@ -38,8 +37,9 @@ characterRequest.onload = function() {
     var shuffleGIF = $("#shuffleGIF");
 
     function shuffleAnimation(){
+      shuffleVillanAudio.start();
       $(shuffleGIF).css("display","block");
-      setTimeout(function(){$(shuffleGIF).css("display","none")}, 1100);
+      setTimeout(function(){$(shuffleGIF).css("display","none")}, 2000);
     }
 
     function renderCard(num, time){
@@ -74,8 +74,6 @@ characterRequest.onload = function() {
       updateCard();
     }
     }
-    shuffleAnimation();
-    renderCard(i, 1200);
 
     function getRandomWithOneExclusion(lengthOfArray,indexToExclude){
         var rand = null;  //an integer
@@ -84,8 +82,89 @@ characterRequest.onload = function() {
           }
         return rand;
       }
+
+      $(document).ready(function(){
+        $('.startModal').on('click', function(){
+          $('.startModal').css('display','none');
+          $('.blackScreen').css('display','none');
+          shuffleAnimation();
+          renderCard(i, 2000);
+          controlHandler()
+        })
+      });
+
     };
 
 characterRequest.send();
 
+//////// SHUFFLE AUDIO
+const shuffleVillanAudio = new Tone.Player({
+  url: 'sounds/VillianRandomizer.mp3',
+  loop: false
+}).toDestination();
 
+//////// BACKGROUNF AUDIO
+
+var controlMain = $(".controlMain");
+var villanSide = true;
+
+function makeChannel(name, url, pan=0) {
+  const channel = new Tone.Channel({
+    pan
+  }).toDestination();
+  const player = new Tone.Player({
+    url: `sounds/${url}.mp3`,
+    loop: true
+  }).sync().start(0);
+  player.connect(channel);
+
+  if (name == 'villan') {channel.mute = false;}
+  else {channel.mute = true;}
+
+  const thisMuteButton = document.getElementById(name);
+  thisMuteButton.addEventListener('click', function(){
+    const checkMuted = thisMuteButton.classList.contains("muted") ? true : false;
+    if (checkMuted) {
+      channel.mute = false;
+    } else {
+      channel.mute = true;
+    }
+  });
+}
+
+makeChannel('villan', 'VillianLoop');
+makeChannel('hero', 'HeroLoop');
+
+////////// Controller
+var stems = $('.stems');
+
+// Play/Pause Button
+function controlHandler() {
+  if($(controlMain).hasClass("paused")) {
+    if (!Tone) {Tone.start();}
+    $(controlMain).removeClass("paused");
+    $(controlMain).addClass("playing");
+    $('#hero').removeClass("unmuted");
+    $('#hero').addClass("muted");
+    $('#villan').removeClass("muted");
+    $('#villan').addClass("unmuted");
+    Tone.Transport.start();
+  } else {
+    $(controlMain).removeClass("playing");
+    $(controlMain).addClass("paused");
+    stems.removeClass("unmuted");
+    stems.addClass("muted");
+    Tone.Transport.stop();
+  }
+};
+
+// Stem buttons
+stems.on('click', function() {
+  if($(this).hasClass("unmuted")) {
+    $(this).removeClass("unmuted");
+    $(this).addClass("muted");
+  } else {
+    $(this).removeClass("muted");
+    $(this).addClass("unmuted");
+  }
+});
