@@ -14,8 +14,8 @@ characterRequest.onload = function() {
     var randomizer = $(".randomizer");
     $(randomizer).on("click",function(){
         i = getRandomWithOneExclusion(charLength, i);
-        shuffleAnimation();
         renderCard(i, 2000);
+        shuffleAnimation();
         // console.log(i);
     })
 
