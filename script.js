@@ -6,16 +6,17 @@ characterRequest.open('GET','chardata.json', true);
 
 
 characterRequest.onload = function() {
-
     // parse data
     var characterData = JSON.parse(characterRequest.responseText);
     var charLength = characterData.length;
+    var factOnRight = true;
 
     var i = 1;
     var randomizer = $(".randomizer");
     $(randomizer).on("click",function(){
         i = getRandomWithOneExclusion(charLength, i);
-        renderCard(i);
+        shuffleAnimation();
+        renderCard(i, 1200);
         // console.log(i);
     })
 
@@ -24,7 +25,7 @@ characterRequest.onload = function() {
     $(randomFact).on("click",function(){
         var charFactLength = characterData[i].Fact.length;
         r = getRandomWithOneExclusion(charFactLength, r);
-        renderCard(i);
+        renderCard(i, 400);
         // console.log(r);
     })
 
@@ -32,20 +33,49 @@ characterRequest.onload = function() {
     var charPicDiv = $(".charPic");
     var charNameDiv = $(".charName");
     var charFactDiv = $(".charFact");
+    var charFactR = $("#turdR");
+    var charFactL = $("#turdL");
+    var shuffleGIF = $("#shuffleGIF");
 
-    function renderCard(num){
+    function shuffleAnimation(){
+      $(shuffleGIF).css("display","block");
+      setTimeout(function(){$(shuffleGIF).css("display","none")}, 1100);
+    }
+
+    function renderCard(num, time){
     // pulling data and defining contents from JSON
-    var charImage = "url('images/" + characterData[num].Image + "') no-repeat";
+    var charImage = "url('images/villains/" + characterData[num].Image + "') no-repeat";
     var charNameString = characterData[num].Name;
     var charFactString = characterData[num].Fact[r];
 
+    function updateCard(){
     // generate CSS and HTML elements
     $(charPicDiv).css("background",charImage);
     $(charPicDiv).css("background-size","cover");
     $(charNameDiv).html(charNameString);
     $(charFactDiv).html(charFactString);
     }
-    renderCard(i);
+
+    //If desktop, excute fact bill animation
+    if(innerWidth > 801) {
+      if(factOnRight){
+        $(charFactR).css("transform", "translate(-50%, -50%)");
+        $(charFactL).css("transform", "translate(50%, -50%)");
+        setTimeout(updateCard, time);
+        setTimeout(function(){$(charFactR).css("transform", "translate(50%, -50%)")}, time);
+      } else {
+        $(charFactR).css("transform", "translate(-50%, -50%)");
+        $(charFactL).css("transform", "translate(50%, -50%)");
+        setTimeout(updateCard, time);
+        setTimeout(function(){$(charFactL).css("transform", "translate(-50%, -50%)")}, time);
+      }
+      factOnRight = !factOnRight;
+    } else {
+      updateCard();
+    }
+    }
+    shuffleAnimation();
+    renderCard(i, 1200);
 
     function getRandomWithOneExclusion(lengthOfArray,indexToExclude){
         var rand = null;  //an integer
