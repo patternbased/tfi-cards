@@ -1,0 +1,50 @@
+[
+  {
+     "Name":"Alexandria Ocasio-Cortez",
+     "Image":"AOC.jpg",
+     "Fact":[
+          "American politician serving as the U.S. Representative for New York's 14th congressional district since 2019.",
+          "She advocates a progressive platform that includes Medicare for All, tuition-free public college, a federal jobs guarantee, a Green New Deal, and abolishing the U.S. Immigration and Customs Enforcement (ICE).",
+          "Is the coolest human in congress. 3",
+          "Is the coolest human in congress. 4",
+          "Is the coolest human in congress. 5",
+          "Is the coolest human in congress. 6",
+          "Is the coolest human in congress. 7",
+          "Is the coolest human in congress. 8",
+          "Is the coolest human in congress. 9",
+          "Is the coolest human in congress. 10"
+     ]
+  },
+  {
+     "Name":"Lebron James",
+     "Image":"LebronJames.jpg",
+     "Fact":[
+          "Born in Akron, Ohio",
+          "Opened a school for underpriviledged kids in Akron, Ohio.",
+          "Greatest basketball player of all time. 3",
+          "Greatest basketball player of all time. 4",
+          "Greatest basketball player of all time. 5",
+          "Greatest basketball player of all time. 6",
+          "Greatest basketball player of all time. 7",
+          "Greatest basketball player of all time. 8",
+          "Greatest basketball player of all time. 9",
+          "Greatest basketball player of all time. 10"
+     ]
+  },
+  {
+     "Name":"Noam Chomsky",
+     "Image":"NoamChomsky.jpg",
+     "Fact":[
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 1",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 2",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 3",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 4",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 5",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 6",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 7",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 8",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 9",
+          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 10"
+     ]
+  }
+]

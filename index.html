@@ -8,27 +8,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
 </head>
-<body>
+<body class="financeBody">
+    <div class="patternH"></div>
     <div class="blackScreen">
         <div class="startModal">Click to start with audio
             <img src="images/start-icon.svg" alt="start">
         </div>
     </div>
 
-    <div class="header">
+    <div class="header" id="financeHeader">
         <div>The Finance Industry</div>
     </div>
 
+    <div class="header" id="humanHeader">
+        <div>The Human World</div>
+    </div>
+
     <div class="wrapper">
-        <div class="character">
+        <!-- Finance card -->
+        <div class="character" id="financeCard">
             <div class="charPic">
                 <img id="shuffleGIF" src="images/shuffle-villans.gif" alt="shuffle">
+                <img class="charImg" src="" alt="finance person">
             </div>
             <div class="charTxt">
-                <h2 class="charName">Sons of Turd</h2>
-                <!-- <p class="charFact"></p> -->
+                <h2 class="charName"></h2>
             </div>
-            <!-- <div class="randomFact"></div> -->
             <div class="turdBubble" id="turdR">
                 <img class="topImg" src="images/fact-top-R.png" alt="facts">
                 <img class="bottomImg" src="images/fact-bottom_R.png" alt="facts">
@@ -40,17 +45,47 @@
                 <p class="charFact"></p>
             </div>
         </div>
+        <!-- Human card -->
+        <div class="character" id="humanCard">
+            <div class="charPicH">
+                <img id="shuffleGIFH" src="images/giphy.gif" alt="shuffling">
+                <img class="charImgH" src="" alt="human">
+            </div>
+            <div class="charTxtH">
+                <h2 class="charNameH"></h2>
+            </div>
+            <div class="factBubble" id="factR">
+                <img class="topImgH" src="images/factIcon.svg" alt="facts">
+                <p class="charFactH"></p>
+            </div>
+            <div class="factBubble" id="factL">
+                <img class="topImgH" src="images/factIcon.svg" alt="facts">
+                <p class="charFactH"></p>
+            </div>
+        </div>
+        <!-- Action buttons (Global) -->
         <div id="controllers">
-            <div class="controlMain paused villan" onclick="controlHandler()"></div>
-            <div id="hero" class="muted stems">H</div>
-            <div id="villan" class="unmuted stems">V</div>
+            <div class="controlMain paused financeBtn" onclick="controlHandler()">
+                <img class="controlIcon" id="controlF" src="images/Play_btn.svg" alt="play + pause">
+            </div>
+            <div class="controlMain paused humanBtn" onclick="controlHandler()">
+                <img class="controlIcon" id="controlH" src="images/Play_btn_H.svg" alt="play + pause">
+            </div>
+            <div id="human" class="muted stems financeBtn">H</div>
+            <div id="finance" class="unmuted stems humanBtn">V</div>
         </div>
         <div id="randomizers">
-            <div class="randomFact">
+            <div class="randomFact financeBtn" id="fandomFactF">
                 <img src="images/randomFact.svg" alt="randomFact">
             </div>
-            <div class="randomizer">
+            <div class="randomizer financeBtn" id="fandomCardF">
                 <img src="images/randomCard.svg" alt="randomCard">
+            </div>
+            <div class="randomFact humanBtn" id="fandomFactH">
+                <img src="images/randomFact_H.svg" alt="randomFact">
+            </div>
+            <div class="randomizer humanBtn" id="fandomCardH">
+                <img src="images/randomCard_H.svg" alt="randomCard">
             </div>
         </div>
     </div>

@@ -4,6 +4,7 @@
 --brick-red: #c14953;
 --bone: #e5dcc5; */
 
+
 @font-face {
     font-family: 'OneDance-Bold';
     src: url('fonts/OneDance-Bold.eot');
@@ -66,6 +67,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
 body, html {
     width: 100%;
     height: 100%;
@@ -73,12 +76,50 @@ body, html {
     padding: 0;
 }
 
-body {
+.financeBody {
     background: #161615;
-    background: url(images/mockup-photos-5nUNdLueQio-unsplash.jpg);
+    background: url(images/mockup-photos-5nUNdLueQio-unsplash_LR.jpg);
     background-size: cover;
     background-position: center;
 }
+
+.humanBody {
+    background: #161615;
+    background: url(images/brushed-steel-BG.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.humanBody::after {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background: url(images/komorebi2.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    pointer-events: none;
+    mix-blend-mode: overlay;
+    opacity: 0.25;
+}
+
+.patternH {
+    height: 100px;
+    width: 100vW;
+    background: url(images/BG-pattern.png) repeat-x;
+    background-size: 200px 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    display: none;
+}
+
+/* Opening Modal and background screen */
 
 .blackScreen {
     width: 100vw;
@@ -147,32 +188,51 @@ body {
     width: calc(100vw - 40px);
     height: 20px;
     background-color: #c2c1ac;
-    box-shadow: 0 3px 1px #000 ;
-    font-family: 'UnitedStates';
     line-height: 1.6em;
-    display: flex;
-    justify-content: center;
     padding: 10px 20px;
     z-index: 2000;
-    background-image: url(images/bg-texture.png);
 }
-.header::before {
+.header div {
+    z-index: 2100;
+    position: fixed;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    width: fit-content;
+}
+#financeHeader {
+    background-image: url(images/bg-texture.png);
+    box-shadow: 0 1px 5px #000 ;
+    font-family: 'UnitedStates';
+}
+#humanHeader {
+    background-image: url(images/wood-texture.jpg);
+    box-shadow: 0 0 3px rgba(255,255,255,0.3) ;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+}
+#financeHeader::before {
     content: "";
     width: 100%;
     height: 20px;
     background-image: url(images/money-frame.png);
     background-repeat: repeat-x;
-    background-size: 20%;
+    background-size: 312px 19px;
     position: absolute;
     top: 10px;
     left: 0;
+    z-index: 2001;
 }
-.header div {
+#financeHeader div {
     background-color: #c2c1ac;
     background-image: url(images/bg-texture.png);
     padding: 0 10px;
     color: #2f5024;
-    z-index: 250;
+}
+
+#humanHeader div {
+    color: #c6c5b9;
+    letter-spacing: 0.3em;
 }
 
 .wrapper {
@@ -187,23 +247,45 @@ body {
     min-height: 400px;
     height: fit-content;
     margin: 0 auto;
-    /* background-color: #474742; */
-    background-color: #111111;
     border-radius: 14px;
     padding: 20px;
-    /* position: relative; */
-    box-shadow: 0 0 8px #000 ;
     position: relative;
+}
+#financeCard {
+    background-color: #111111;
+    box-shadow: 0 0 8px #000 ;
     border: #35332e solid 1px;
-    /* z-index: 10; */
 }
 
-.charPic {
+#humanCard, #humanHeader {
+    display: none;
+}
+
+.charPic, .charPicH {
     width: 480px;
     height: 480px;
     margin: 10px;
     border-radius: 4px;
     position: relative;
+}
+.charPicH {
+    height: fit-content;
+}
+.charImg, .charImgH {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    z-index: 80;
+}
+.charImgH {
+    height: auto;
+    position: relative;
+    border: rgba(0,0,0, 0.5) 1px solid;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.5);
+    transition-duration: 300ms;
 }
 .charPic::after {
     content: "";
@@ -217,7 +299,7 @@ body {
     background-repeat: no-repeat;
     z-index: 100;
 }
-#shuffleGIF {
+#shuffleGIF, #shuffleGIFH {
     width: 480px;
     height: 480px;
     max-width: 100%;
@@ -225,50 +307,87 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(images/shuffle-villans.gif);
+    /* background-image: url(images/shuffle-villans.gif);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     z-index: 90;
     display: none;
 }
 
-.charTxt {
+.charTxt, .charTxtH {
     width: 500px;
     height: auto;
     margin-top: 50px;
     margin-bottom: 10px;
-    color: #9e9d8f;
     text-align: center;
     z-index: 110;
 }
 
 .charTxt h2 {
+    color: #9e9d8f;
     margin: 0;
     font-family: 'DEATH FONT';
     font-size: 3.2em;
     letter-spacing: 0.1em;
 }
 
-.turdBubble {
+.charTxtH h2{
+    color: #141212;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    font-size: 2.4em;
+    text-shadow: 0 0 8px rgba(255,255,255, 1);
+}
+
+.turdBubble, .factBubble {
     position: absolute;
     width: 200px;
     min-height: 100px;
-    padding: 60px 40px 40px 40px;
-    top: 50%;
-    background: #c2c1ac;
     z-index: -1;
     text-align: center;
-    border-radius: 0 2px 2px 0;
+    line-height: 1.5em;
+}
+.turdBubble {
     box-shadow: 0 0 8px #000 ;
+    padding: 60px 40px 40px 40px;
     background-image: url(images/bg-texture.png);
     background-repeat: repeat-x;
     background-size: 100%;
     background-position-y: 3px;
+    background: #c2c1ac;
     color: #2f5024;
-    line-height: 1.5em;
     font-family: 'Libre Baskerville', serif;
     border: #c2c1ac solid 1px;
+    top: 50%;
+    transition-duration: 200ms;
 }
+.factBubble {
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+    /* font-weight: lighter; */
+    font-size: 0.9em;
+    line-height: 1.8em;
+    letter-spacing: 0.2em;
+    background: rgba(200, 200, 200, 0.5);
+    box-shadow: 0 0 8px rgba(0,0,0, 0.5) ;
+    padding: 40px 40px 40px 40px;
+    border: rgba(0,0,0, 0.5) solid 1px;
+    top: 50px;
+    transition-duration: 200ms;
+}
+
+.factBubble p {
+    text-shadow: 0 0 6px rgba(200, 200, 200, 1);
+}
+.factBubble .topImgH {
+    display: block;
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+    margin: 0 auto;
+}
+
 .turdBubble::before {
     content: "";
     width: 100%;
@@ -314,18 +433,26 @@ body {
 #turdL img {
     left: 0;
 }
-#turdR {
+#turdR, #factR {
     transform: translate(-50%, -50%);
     right: calc(50% - 390px);
-    transition-duration: 200ms;
+    border-radius: 0 2px 2px 0;
 }
-#turdL {
+#factR {
+    right: calc(50% - 400px);
+    border-radius: 10px;
+}
+#turdL, #factL {
     transform: translate(50%, -50%);
-    left: calc(50% - 280px - 110px);
-    transition-duration: 200ms;
+    left: calc(50% - 390px);
+    border-radius: 2px 0 0 2px;
+}
+#factL {
+    left: calc(50% - 400px);
+    border-radius: 10px;
 }
 
-.charTxt p {
+.charTxt p, .charTxtH p {
     display: block;
     font-family: serif;
     line-height: 1.2em;
@@ -338,13 +465,32 @@ body {
     width: 60px;
     height: 60px;
     position: fixed;
-    background-color: #c2c1ac;
     border-radius: 50%;
+}
+
+.financeBtn {
+    background-color: #c2c1ac;
     border: #2f5024 double 4px;
     box-shadow: 0 0 5px #000 ;
+    color: #2f5024;
+    font-family: 'UnitedStates';
 }
-.randomizer:hover, .randomFact:hover {
-    background-color: #9e9d8f;
+.humanBtn {
+    background: url(images/wood-texture.jpg);
+    box-shadow: 0 0 3px rgba(255,255,255,0.5) ;
+    margin: 4px;
+    display: none;
+    color: #c6c5b9;
+    font-family: 'Dosis', sans-serif;
+}
+
+.financeBtn:hover {
+    background-color: #8b8b7f;
+    transition-duration: 300ms;
+}
+
+.humanBtn:hover {
+    background: linear-gradient(135deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/wood-texture.jpg);
     transition-duration: 300ms;
 }
 
@@ -356,23 +502,29 @@ body {
     left: 10px;
 }
 
+#fandomFactH img, #fandomCardH img {
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 15px;
+}
+
 .controlMain {
     left: 20px;
     bottom: 20px;
 }
 
-#hero {
+#human {
     left: 20px;
     bottom: 100px;
 }
 
-#villan {
+#finance {
     left: 20px;
-    bottom: 180px;
+    bottom: 100px;
 }
 
 .stems {
-    font-family: 'UnitedStates';
     font-size: 1.2em;
     line-height: 3.4em;
     text-align: center;
@@ -387,31 +539,23 @@ body {
     bottom: 100px;
 }
 
-.paused {
+/* .paused {
     background-image: url(images/Play_btn.svg);
 }
 
 .playing {
     background-image: url(images/Pause_btn.svg);
-}
+} */
 
 .muted {
-    background-color: #747160;
-    color: #203618;
+    display: block;
 }
 
 .unmuted {
     background-color: #203618;
     color: #747160;
+    display: none;
 }
-
-/* .randomFact {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
-    background-color: #c14953;
-    border-radius: 10px;
-} */
 
 @media only screen and (max-width: 800px) {
     .wrapper {
@@ -419,17 +563,32 @@ body {
         height: calc(100% - 80px);
         overflow-y: scroll;
     }
+    .patternH {
+        top: 200px;
+    }
     .character {
         max-width: calc(100vw - 60px);
         min-height: 400px;
         margin-bottom: 60px;
     }
-    .charPic {
+    #humanCard {
+        padding: 0;
+    }
+    .charPic, .charPicH, .charImg, .charImgH {
         width: calc(100vw - 100px);
         max-width: 480px;
         height: calc(100vw - 100px);
         max-height: 480px;
         margin: 20px auto;
+    }
+    .charPicH,.charImgH {
+        width: 100%;
+        height: auto;
+        max-height: unset;
+        margin: 10px auto;
+    }
+    .charImg, .charImgH {
+        margin: 0 auto;
     }
     .charPic::after {
         width: calc(100vw - 60px);
@@ -438,26 +597,34 @@ body {
         max-height: 500px;
     }
     
-    .charTxt {
+    .charTxt, .charTxtH {
         width: calc(100vw - 60px);
         max-width: 500px;
         margin-bottom: 0;
     }
+    .charTxtH {
+        margin-top: 10px;
+    }
     .charTxt h2 {
         font-size: 2.4em;
     }
-    .turdBubble {
-        position: static;
+    .charTxtH h2 {
+        font-size: 1.8em;
+    }
+    .turdBubble, .factBubble {
+        position:static;
         top: unset;
         right: unset;
-        transform: unset;
-        background: none;
-        width: inherit;
         min-height: unset;
+    }
+    .turdBubble {
+        background: none;
         padding: 0;
+        border: none;
         box-shadow: none;
         color: #9e9d8f;
-        border: none;
+        transform: unset;
+        width: inherit;
     }
     .turdBubble::after {
         background: none;
@@ -471,14 +638,18 @@ body {
         margin: 10px auto;
         background-image: url(images/factIcon-wht.svg);
     }
-    #turdR {
+    #turdR, #factR {
         display: none;
     }
-    #turdL {
+    #turdL, #factL {
         width: calc(100vw - 60px);
         max-width: 500px;
         transform: unset;
         left: unset;
+    }
+    #factL {
+        width: calc(100vw - 100px);
+        padding: 20px;
     }
     #turdL img.topImg, #turdL img.bottomImg {
         display: none;
@@ -490,29 +661,22 @@ body {
         width: 40px;
         height: 40px;
     }
-    .randomizer:hover, .randomFact:hover {
-        background: #c2c1ac;
-    }
+
     .randomFact {
     right: 80px;
     bottom: 20px;
     }
 
-    #hero {
+    #human, #finance  {
         left: 80px;
         bottom: 20px;
     }
     
-    #villan {
-        left: 140px;
-        bottom: 20px;
-    }
     .stems {
         font-size: 1.2em;
         line-height: 2.4em;
-
     }
-    .randomizer img, .randomFact img {
+    .randomizer img, .randomFact img, #fandomCardH img, #fandomFactH img {
         width: 30px;
         height: 30px;
         top: 5px;
@@ -529,6 +693,7 @@ body {
 
     .header {
         font-size: 0.8em;
+        line-height: 2.2em;
     }
 
     .character {
@@ -540,8 +705,10 @@ body {
         padding: 20px 5px;
         overflow-y: scroll;
     }
-    
-    .charPic {
+    #humanCard {
+        margin: 10px 10px 60px 10px;
+    }
+    .charPic, .charImg {
         width: calc(100vw - 60px);
         height: calc(100vw - 60px);
         margin: 5px auto;
@@ -555,9 +722,15 @@ body {
         width: calc(100vw - 40px);
         margin: 40px auto 0 auto;
     }
-    #turdL {
+    .charTxtH {
+        width: calc(100vw - 20px);
+    }
+    #turdL, #factL {
         width: calc(100vw - 40px);
         margin: 0 auto;
+    }
+    #factL {
+        width: calc(100vw - 60px);
     }
     /* #randomizers {
         height: 40px;
@@ -574,4 +747,8 @@ body {
         margin: 0 10px;
     } */
 
+}
+
+.displaynone {
+    display: none;
 }
