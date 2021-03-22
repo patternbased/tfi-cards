@@ -1,50 +1,194 @@
 [
-  {
-     "Name":"Alexandria Ocasio-Cortez",
-     "Image":"AOC.jpg",
-     "Fact":[
-          "American politician serving as the U.S. Representative for New York's 14th congressional district since 2019.",
-          "She advocates a progressive platform that includes Medicare for All, tuition-free public college, a federal jobs guarantee, a Green New Deal, and abolishing the U.S. Immigration and Customs Enforcement (ICE).",
-          "Is the coolest human in congress. 3",
-          "Is the coolest human in congress. 4",
-          "Is the coolest human in congress. 5",
-          "Is the coolest human in congress. 6",
-          "Is the coolest human in congress. 7",
-          "Is the coolest human in congress. 8",
-          "Is the coolest human in congress. 9",
-          "Is the coolest human in congress. 10"
-     ]
-  },
-  {
-     "Name":"Lebron James",
-     "Image":"LebronJames.jpg",
-     "Fact":[
-          "Born in Akron, Ohio",
-          "Opened a school for underpriviledged kids in Akron, Ohio.",
-          "Greatest basketball player of all time. 3",
-          "Greatest basketball player of all time. 4",
-          "Greatest basketball player of all time. 5",
-          "Greatest basketball player of all time. 6",
-          "Greatest basketball player of all time. 7",
-          "Greatest basketball player of all time. 8",
-          "Greatest basketball player of all time. 9",
-          "Greatest basketball player of all time. 10"
-     ]
-  },
-  {
-     "Name":"Noam Chomsky",
-     "Image":"NoamChomsky.jpg",
-     "Fact":[
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 1",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 2",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 3",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 4",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 5",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 6",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 7",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 8",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 9",
-          "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 10"
-     ]
-  }
-]
+   {
+      "Name":"Alexandria Ocasio-Cortez",
+      "Image":"AOC.jpg",
+      "Fact":[
+           "American politician serving as the U.S. Representative for New York's 14th congressional district since 2019.",
+           "She advocates a progressive platform that includes Medicare for All, tuition-free public college, a federal jobs guarantee, a Green New Deal, and abolishing the U.S. Immigration and Customs Enforcement (ICE).",
+           "Defeated Democratic Caucus Chair Joe Crowley, a 10-term incumbent, in what was widely seen as the biggest upset victory in the 2018 midterm election primaries.",
+           "Taking office at age 29, Ocasio-Cortez is the youngest woman ever to serve in the United States Congress.",
+           "Along with Rashida Tlaib, Ocasio-Cortez is the first female member of the Democratic Socialists of America elected to serve in Congress.",
+           "Ocasio-Cortez was born into a Catholic family in the New York City borough of the Bronx on October 13, 1989, the daughter of Blanca Ocasio-Cortez (née Cortez) and Sergio Ocasio-Roman",
+           "After graduating from high school, Ocasio-Cortez enrolled at Boston University. Her father died of lung cancer in 2008 during her second year, and Ocasio-Cortez became involved in a lengthy probate battle to settle his estate. She has said that the experience helped her learn \"first-hand how attorneys appointed by the court to administer an estate can enrich themselves at the expense of the families struggling to make sense of the bureaucracy.\"",
+           "During college, Ocasio-Cortez served as an intern for U.S. Senator Ted Kennedy, in his section on foreign affairs and immigration issues. She recalled, \"I was the only Spanish speaker, and as a result, as basically a kid—a 19-, 20-year-old kid—whenever a frantic call would come into the office because someone is looking for their husband because they have been snatched off the street by ICE, I was the one that had to pick up that phone.",
+           "Ocasio-Cortez graduated cum laude from Boston University in 2011 with a Bachelor of Arts degree in both international relations and economics.",
+           "After college, Ocasio-Cortez moved back to the Bronx and took a job as a bartender and waitress to help her mother—a house cleaner and school bus driver—fight foreclosure of their home."
+      ]
+   },
+   {
+      "Name":"Lebron James",
+      "Image":"LebronJames.jpg",
+      "Fact":[
+           "Born in Akron, Ohio",
+           "Throughout his career, James has taken stances on controversial issues. On several occasions, he mentioned a feeling of obligation to effect change using his status. Those include the War in Darfur, the Trayvon Martin case, the now-former NBA owner Donald Sterling's racist comments in 2014, the Michael Brown verdict, and the death of Eric Garner.",
+           "Widely considered one of the greatest NBA players in history, James is frequently compared to Michael Jordan in debates over the greatest basketball player of all time.",
+           "James played basketball for St. Vincent–St. Mary High School in his hometown of Akron, Ohio, where he was heavily touted by the national media as a future NBA superstar.",
+           "Having become more involved in philanthropic and activist pursuits later in his career, James's charitable organization, the LeBron James Family Foundation, helped open a school, housing complex, and community center and retail plaza in his hometown of Akron.",
+           "James is an active supporter of non-profit organizations, including After-School All-Stars, Boys & Girls Clubs of America, and Children's Defense Fund. He also has his own charity foundation, the LeBron James Family Foundation, which is based in Akron.",
+           "Since 2005, the foundation has held an annual bike-a-thon to raise money for various causes.[398] In 2015, James announced a partnership with the University of Akron to provide scholarships for as many as 2,300 children beginning in 2021.",
+           "In 2016, he donated $2.5 million to the Smithsonian National Museum of African American History and Culture to support an exhibit on Muhammad Ali.",
+           "In 2017, he received the J. Walter Kennedy Citizenship Award from the NBA for his \"outstanding service and dedication to the community.\"",
+           "In November of 2017, the Akron School Board approved the \"I Promise School\", a public elementary school created in a partnership with the LeBron James Family Foundation to help struggling elementary school students stay in school. James later reflected that it was his most important professional accomplishment of his life. The school officially opened on July 30, 2018."
+      ]
+   },
+   {
+      "Name":"Noam Chomsky",
+      "Image":"NoamChomsky.jpg",
+      "Fact":[
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 1",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 2",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 3",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 4",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 5",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 6",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 7",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 8",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 9",
+           "Speaks truth to power and is often cited as one of the greatest public thinkers alive. 10"
+      ]
+   },
+   {
+      "Name":"Joe Hill",
+      "Image":"JoeHill.jpg",
+      "Fact":[
+           "Born Joel Emmanuel Hägglund and also known as Joseph Hillström, was a Swedish-American labor activist, songwriter, and member of the Industrial Workers of the World.",
+           "A native Swedish speaker, he learned English during the early 1900s, while working various jobs from New York to San Francisco.",
+           "An immigrant worker frequently facing unemployment and underemployment, became a popular songwriter and cartoonist for the union.",
+           "His most famous songs include \"The Preacher and the Slave\" (in which he coined the phrase \"pie in the sky\"), \"The Tramp\", \"There Is Power in a Union\", \"The Rebel Girl\", and \"Casey Jones—the Union Scab\", which express the harsh and combative life of itinerant workers, and call for workers to organize their efforts to improve working conditions.",
+           "Hill was executed by the United States government in November 1915. After his death, he was memorialized by several folk songs. His life and death have inspired books and poetry.",
+           "Executed by firing squad on November 19, 1915 at Utah's Sugar House Prison.",
+           "When Deputy Shettler, who led the firing squad, called out the sequence of commands preparatory to firing (\"Ready, aim,\") Hill shouted, \"Fire — go on and fire!\"",
+           "To commemorate the 50th anniversary of the execution of Joe Hill, Philip S. Foner published a book, The Case of Joe Hill, about the trial and subsequent events, which concludes that the case was a miscarriage of justice.",
+           "Hill's exhortation, \"Don't waste any time mourning. Organize!\", often shortened to \"Don't mourn -- organize!\", has become a widely-used slogan of the political Left, especially after a defeat or death.",
+           "One small packet of ashes was scattered at a 1989 ceremony which unveiled a monument to six unarmed IWW coal miners buried in Lafayette, Colorado, who had been machine-gunned by Colorado state police in 1927 in the Columbine Mine massacre. Until 1989 the graves of five of these men were unmarked. Another famous Wobbly, Carlos Cortez, scattered Joe Hill's ashes on the graves at the commemoration."
+      ]
+   },
+   {
+      "Name":"Thomas Sankara",
+      "Image":"ThomasSankara.jpg",
+      "Fact":[
+           "Was a Burkinabé military officer and socialist revolutionary served as the President of Burkina Faso from 1983 to 1987. A Marxist–Leninist and pan-Africanist, he was viewed by supporters as a charismatic and iconic figure of revolution and is sometimes referred to as \"Africa's Che Guevara\"",
+           "After being appointed Prime Minister in 1983, disputes with the sitting government led to Sankara's eventual imprisonment. While he was under house arrest, a group of revolutionaries seized power on his behalf in a popularly-supported coup later that year.",
+           "Aged 33, Sankara became the President of the Republic of Upper Volta. He immediately launched programmes for social, ecological and economic change and renamed the country from the French colonial name Upper Volta to Burkina Faso (\"Land of Incorruptible People\"), with its people being called Burkinabé (\"upright people\").",
+           "His foreign policies were centred on anti-imperialism, while he rejected aid from organizations such as the International Monetary Fund. Sankara welcomed foreign aid from other sources but tried to reduce reliance on aid by boosting domestic revenues and diversifying the sources of assistance",
+           "Burkinabe built for the first time scores of schools, health centers, water reservoirs, and nearly 100 km of rail, with little or no external assistance. Total cereal production rose by 75% between 1983 and 1986",
+           "Other components of his national agenda included planting over 10 million trees to combat the growing desertification of the Sahel, redistributing land from private landowners, suspending rural poll taxes and domestic rents and establishing a road and railway construction programme.",
+           "On the local level, Sankara called on every village to build a medical dispensary and had pharmacies built in 5,384 out of 7,500 villages. From 1982-1984 the infant mortality rate dropped from 208 per 1,000 births to 145. School attendance under Sankara increased from 6% to 22%.",
+           "he outlawed female genital mutilation, forced marriages and polygamy. He appointed women to high governmental positions and encouraged them to work outside the home and stay in school, even if pregnant.",
+           "His revolutionary programmes for African self-reliance made him an icon to many of Africa's poor.",
+           "On 15 October 1987, Sankara was assassinated by troops led by Blaise Compaoré, who assumed leadership of the state shortly after having Sankara killed."
+      ]
+   },
+   {
+      "Name":"José Mujica",
+      "Image":"JoseMujica.jpg",
+      "Fact":[
+           "Uruguayan farmer and retired politician who served as the 40th President of Uruguay from 2010 to 2015.",
+           "Mujica was born on 20 May 1935, to Demetrio Mujica, of Spanish Basque ancestry, and Lucy Cordano, a daughter of Italian immigrants.",
+           "Mujica's father was a small farmer who went bankrupt shortly before his death in 1940, when his son was five.",
+           "He has been described as \"the world's humblest head of state\" due to his austere lifestyle and his donation of around 90 percent of his $12,000 monthly salary to charities that benefit poor people and small entrepreneurs",
+           "In the mid-1960s, he joined the newly formed MLN-Tupamaros movement, an armed political group inspired by the Cuban Revolution.",
+           " In March 1970 Mujica was gunned down while resisting arrest at a Montevideo bar; he injured two policemen and was in turn shot six times. The surgeon on call at the hospital saved his life.",
+           "In total Mujica was captured by the authorities on four occasions. He was among the more than 100 Tupamaros who escaped Punta Carretas Prison in September 1971 by digging from inside the prison a tunnel that opened up at the living room of a nearby home.",
+           "During his time in prison, Mujica suffered a number of health crises, particularly mental issues.",
+           "Mujica's political ideology has evolved over the years from orthodox to pragmatist. In recent times he has expressed a desire for a more flexible political left.",
+           "His speaking style and manner is credited as part of his growing popularity since the late 1990s, especially among rural and poor sectors of the population.[19] He has been variously described as an \"antipolitician\"[20] and a man who \"speaks the language of the people\"."
+      ]
+   },
+   {
+      "Name":"Naomi Klein",
+      "Image":"NaomiKlein.jpg",
+      "Fact":[
+           "Naomi A. Klein (born May 8, 1970) is a Canadian author, social activist, and filmmaker known for her political analyses and criticism of corporate globalization and of capitalism.",
+           "Klein first became known internationally for her alter-globalization book No Logo (1999).",
+           "The Take (2004), a documentary film about Argentina's occupied factories, written by her and directed by her husband Avi Lewis, further increased her profile, while The Shock Doctrine (2007), a critical analysis of the history of neoliberal economics, solidified her standing as a prominent activist on the international stage.",
+           "In 2016, Klein was awarded the Sydney Peace Prize for her activism on climate justice.",
+           "Klein frequently appears on global and national lists of top influential thinkers, including the 2014 Thought Leaders ranking compiled by the Gottlieb Duttweiler Institute, Prospect magazine's world thinkers 2014 poll, and Maclean's 2014 Power List.",
+           "Klein spent much of her teenage years in shopping malls, obsessed with designer labels. As a child and teenager, she found it \"very oppressive to have a very public feminist mother\" and she rejected politics, instead embracing \"full-on consumerism\".",
+           "In 1999, Klein published the book No Logo, which for many became a manifesto of the anti-globalization movement.",
+           "In 1999, Klein published the book No Logo, which for many became a manifesto of the anti-globalization movement. In it, she attacks brand-oriented consumer culture and the operations of large corporations. She also accuses several such corporations of unethically exploiting workers in the world's poorest countries in pursuit of greater profits.",
+           "No Logo became an international bestseller, selling over one million copies in over 28 languages.",
+           "Klein's Fences and Windows (2002) is a collection of her articles and speeches written on behalf of the anti-globalization movement (all proceeds from the book go to benefit activist organizations through The Fences and Windows Fund)"
+      ]
+   },
+   {
+      "Name":"Greta Thurnberg",
+      "Image":"GretaThurnberg.jpg",
+      "Fact":[
+           "A swedish environmental activist who is internationally known for challenging world leaders to take immediate action against climate change.",
+           "Thunberg initially gained notice for her youth and her straightforward speaking manner, both in public and to political leaders and assemblies, in which she criticises world leaders for their failure to take sufficient action to address the climate crisis.",
+           "Thunberg's activism started after convincing her parents to adopt several lifestyle choices to reduce their own carbon footprint.",
+           "In August 2018, at age 15, she started spending her school days outside the Swedish Parliament to call for stronger action on climate change by holding up a sign reading Skolstrejk för klimatet (School strike for climate).",
+           "Her sudden rise to world fame has made her both a leader and a target for critics, especially due to her age. ",
+           "Her influence on the world stage has been described by The Guardian and other newspapers as the \"Greta effect\".",
+           "She received numerous honours and awards, including an honorary Fellowship of the Royal Scottish Geographical Society, inclusion in Time's 100 most influential people, being the youngest Time Person of the Year, inclusion in the Forbes list of The World's 100 Most Powerful Women (2019), and three consecutive nominations for the Nobel Peace Prize.",
+           "Is aware that humanity is facing an existential crisis because of global warming and collectively holds her generation's former adults and current elders responsible for creating the problem.",
+           "Often speaks bluntly to business and political leaders about their failure to take concerted action",
+           "In February 2019, 224 academics signed an open letter of support stating they were inspired by Thunberg's actions and the striking school children in making their voices heard"
+      ]
+   },
+   {
+      "Name":"Michael Parenti",
+      "Image":"MichaelParenti.jpg",
+      "Fact":[
+           "American political scientist and cultural critic who writes on scholarly and popular subjects. He has taught at American and international universities and has been a guest lecturer before campus and community audiences",
+           "Michael Parenti was raised by an Italian-American working class family in the East Harlem neighborhood of New York City.",
+           "After graduating from high school, Parenti worked for several years.",
+           "For many years Parenti taught political and social science at various institutions of higher learning. Eventually he devoted himself full-time to writing, public speaking, and political activism.",
+           "He is the author of 23 books and many more articles. His works have been translated into at least 18 languages.",
+           "His influential book Democracy for the Few, now in its ninth edition, is a critical analysis of U.S. society, economy, and political institutions and a college-level political science textbook published by Wadsworth Publishing",
+           "In recent years he has addressed such subjects as \"Empires: Past and Present,\" \"US Interventionism: the Case of Iraq,\" \"Race, Gender, and Class Power,\" \"Ideology and History,\" \"The Overthrow of Communism,\" and \"Terrorism and Globalization.\"",
+           "In 1974, Parenti ran in Vermont on the democratic socialist Liberty Union Party ticket for U.S. Congress and received 7% of the vote. Parenti was once a friend of Bernie Sanders, with whom he later split over Sanders's support for the NATO bombing of Yugoslavia",
+           "New York City-based punk rock band Choking Victim use a number of samples from Michael Parenti's lectures in their album No Gods, No Managers.",
+           "Parenti was once a friend of Bernie Sanders, with whom he later split over Sanders's support for the NATO bombing of Yugoslavia"
+      ]
+   },
+   {
+      "Name":"Bernie Sanders",
+      "Image":"BernieSanders.jpg",
+      "Fact":[
+           "He is the longest-serving independent in U.S. congressional history",
+           "American politician who has served as the junior United States senator from Vermont since 2007 and as U.S.",
+           "Sanders self-identifies as a democratic socialist and has been credited with influencing a leftward shift in the Democratic Party since his 2016 presidential campaign.",
+           "An advocate of social democratic and progressive policies, he is known for his opposition to economic inequality and neoliberalism.",
+           "Born into a working-class Jewish family and raised in the Brooklyn borough of New York City, Sanders attended Brooklyn College before graduating from the University of Chicago in 1964.",
+           "While a student, he was a protest organizer for the Congress of Racial Equality and the Student Nonviolent Coordinating Committee during the civil rights movement.",
+           "Sanders attended James Madison High School, where he was captain of the track team and took third place in the New York City indoor one-mile race",
+           "Not long after his high school graduation, his mother died at the age of 46. His father died a few years later in 1962, at the age of 57.",
+           "He has described himself as a mediocre college student because the classroom was \"boring and irrelevant,\" while the community was more important to his education.",
+           "Sanders later described his time in Chicago as \"the major period of intellectual ferment in my life.\"While there, he joined the Young People's Socialist League (the youth affiliate of the Socialist Party of America)[29] and was active in the civil rights movement as a student for the Congress of Racial Equality (CORE) and the Student Nonviolent Coordinating Committee (SNCC)."
+      ]
+   },
+   {
+      "Name":"Ilhan Omar",
+      "Image":"IlhanOmar.jpg",
+      "Fact":[
+           "American politician serving as the U.S. Representative for Minnesota's 5th congressional district since 2019. She is a member of the Democratic–Farmer–Labor Party.",
+           "Omar serves as whip of the Congressional Progressive Caucus and has advocated for a living wage, affordable housing, universal healthcare, student loan debt forgiveness, the protection of Deferred Action for Childhood Arrivals, and abolishing U.S. Immigration and Customs Enforcement (ICE).",
+           "She has strongly opposed the immigration policies of the Trump administration, including the Trump travel ban.",
+           "A frequent critic of Israel, Omar has denounced its settlement policy and military campaigns in the occupied Palestinian territories, and what she describes as the influence of pro-Israel lobbies.",
+           "Omar is the first Somali American, the first naturalized citizen of African birth, and the first woman of color to represent Minnesota in the United States Congress. She is also one of the first two Muslim women (along with Rashida Tlaib) to serve in Congress.",
+           "She has been the subject of several death threats, conspiracy theories, harassment by political opponents, and false and misleading claims by Donald Trump.",
+           "Omar was a Policy Fellow at the University of Minnesota's Humphrey School of Public Affairs.",
+           "Omar was born in Mogadishu, Somalia on October 4, 1982, and spent her early years in Baidoa, Somalia. She was the youngest of seven siblings, including sister Sahra Noor.",
+           "According to a study by the Social Science Research Council of more than 113,000 tweets about Muslim candidates in the weeks leading up to the 2018 midterm elections, Omar \"was the prime target. Roughly half of the 90,000 tweets mentioning her included hate speech or Islamophobic or anti-immigrant language.\"",
+           "Hmmmmmm??"
+      ]
+   },
+   {
+      "Name":"Stacey Abrams",
+      "Image":"StaceyAbrams.jpg",
+      "Fact":[
+           "Stacey Abrams saved the world 1",
+           "Stacey Abrams saved the world 2",
+           "Stacey Abrams saved the world 3",
+           "Stacey Abrams saved the world 4",
+           "Stacey Abrams saved the world 5",
+           "Stacey Abrams saved the world 6",
+           "Stacey Abrams saved the world 7",
+           "Stacey Abrams saved the world 8",
+           "Stacey Abrams saved the world 9",
+           "Stacey Abrams saved the world 10"
+      ]
+   }
+ ]
